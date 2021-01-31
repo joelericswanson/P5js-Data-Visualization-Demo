@@ -1,28 +1,17 @@
 # P5js-Data-Visualization-Demo
 
-[Ben Rubin](https://vimeo.com/52168128)
-[Amaranth Borsuk](x)
-[Jenny Holzer](x)
+## Tools
+[Python](https://www.python.org/)
+[R](https://www.r-project.org/foundation/)
+[JavaScript](https://www.javascript.com/)
+[Java](https://www.java.com/en/)
+[P5.js](https://p5js.org/)
+[MatLab](https://www.mathworks.com/products/matlab.html)
 
-## Reading
+There are also software packages, like [Tableau](x), that are frequently used.
 
-## Examples
-[Basic text](https://pages.github.com/)
+There are also good tools inside standard software, like Microsoft Excel.
 
-[Aligning text](https://pages.github.com/)
+In short, its less about the tool.
 
-[System font](https://pages.github.com/)
-
-[Uploaded font](https://pages.github.com/)
-
-[Placing text with translate](https://pages.github.com/)
-
-[Moving text](https://pages.github.com/)
-
-[Rotating text](https://pages.github.com/)
-
-
-[Text grid](https://pages.github.com/)
-[3d text](https://pages.github.com/)
-[3d grid](https://pages.github.com/)
-
+## Different Kinds of data

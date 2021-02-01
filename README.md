@@ -1,9 +1,13 @@
 # P5js-Data-Visualization-Demo
+*“In order to consider these fundamentals in detail, however, we must start with an alternative assumption about information itself: that there is nothing natural about information. Information, no matter what it is called—data, knowledge, or fact, song, story, or metaphor—has always been designed.”*
+
+—Brenda Dervin, *Chaos, Order, and Sense-Making* 
+
 Assumptions: a familarity with programming, familiarity with arrays and for loops.
 
 Chart fatigue, New York Times portrait vs. lanscape
 
-[Danielle Szafir](https://danielleszafir.com/)
+[Danielle Szafir](https://danielleszafir.com/), [*The Good, The Bad, and the Biansed: Five Ways Visualization Can Miselad (And How to fix them)*](https://interactions.acm.org/archive/view/july-august-2018/the-good-the-bad-and-the-biased)
 
 ## Scales of Measurement
 
@@ -73,7 +77,6 @@ Start sketching!
 Anything digital can be treated as data!
 Sound
 Pixel
-
 
 Tables
 

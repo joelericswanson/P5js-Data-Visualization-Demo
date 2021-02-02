@@ -1,9 +1,15 @@
 # P5js-Data-Visualization-Demo
+### Required Skills
+a familarity with programming, familiarity with arrays and for loops.
+
+### Things to Ponder: Data != Truth
 *“In order to consider these fundamentals in detail, however, we must start with an alternative assumption about information itself: that there is nothing natural about information. Information, no matter what it is called—data, knowledge, or fact, song, story, or metaphor—has always been designed.”*
 
 —Brenda Dervin, *Chaos, Order, and Sense-Making* 
 
-Assumptions: a familarity with programming, familiarity with arrays and for loops.
+["Zero" had to be invented](https://www.scientificamerican.com/article/what-is-the-origin-of-zer/)
+
+[Standards of Measurements have been used as a colonizing tool](https://en.wikipedia.org/wiki/History_of_measurement)
 
 Chart fatigue, New York Times portrait vs. lanscape
 
@@ -14,8 +20,6 @@ Chart fatigue, New York Times portrait vs. lanscape
 All variables are either nominal, ordinal, interval, and ratio as introduced in the 1940's by [Stanley Smith Stevens](https://en.wikipedia.org/wiki/Stanley_Smith_Stevens)
 
 ![Types of Data](https://lh5.googleusercontent.com/7jyxzQ2ObysJGLFcGB6Zc25AHAswexk68SbOh_KYa4if2P9yRe7lIC8NDUgZEcSGspqpRIGQcMx_qCmrG6sjHegFHy9Sqhp_1z3PFido6d19TKYFq0pMTHDs4OV9l6pP-MTNmeKu)
-Format: ![Alt Text](url)
-
 
 ### Qualitative Data 
 
@@ -47,8 +51,11 @@ Examples: enzyme activity, dose amount, reaction rate, flow rate, concentration,
 When working with ratio variables, but not interval variables, the ratio of two measurements has a meaningful interpretation. For example, because weight is a ratio variable, a weight of 4 grams is twice as heavy as a weight of 2 grams. However, a temperature of 10 degrees C should not be considered twice as hot as 5 degrees C. If it were, a conflict would be created because 10 degrees C is 50 degrees F and 5 degrees C is 41 degrees F. Clearly, 50 degrees is not twice 41 degrees.  Another example, a pH of 3 is not twice as acidic as a pH of 6, because pH is not a ratio variable.
 
 
-Logarithmic
-*It is stunning to realize how many people are looking at the data visuazliation of Covid that are logarithmic and yet have no idea what that means!*
+### Linear vs. Logarithmic Scales
+
+[Logarithmic Scales](https://en.wikipedia.org/wiki/Logarithmic_scale)
+
+*It is stunning to realize how many people are looking logarithmic data visualizations of Covid and yet have no idea what that means!*
 
 
 ## Tools
@@ -63,17 +70,13 @@ There are also software packages, like [Tableau](x), that are frequently used.
 
 There are also good tools inside standard software, like Microsoft Excel.
 
-In short, its less about the tool.
-
 ## Different Kinds of data
-
-First, remember that there is "nothing natural about data." — Be skeptical.
 
 But assuming you start a data visualization with data, look at the data. What do you have? What do you not have? Is there other data that might be interesting to combine? What story are you trying to tell about this data (in a completely ethical and objective way of course)?
 
 Start sketching!
 
-###Types of data:
+### Types of data:
 Anything digital can be treated as data!
 Sound
 Pixel

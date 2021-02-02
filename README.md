@@ -105,8 +105,24 @@ When dealing with raw text files we need to:
 
 [CSV: Comma Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values)
 
+[Load Text File](https://editor.p5js.org/hippocrit/sketches/EmKaXjJg4)
 
+Most tables can be exported as .csv file, or comma separated values files (show .csv file in TextEdit and Numbers)
 
+P5.js comes with a bunch of [functions and properties](https://p5js.org/reference/#/p5.Table) for working with tables.
+
+[Load Table](https://editor.p5js.org/hippocrit/sketches/W8-Lt9lby)
+[Bar Chart](https://editor.p5js.org/hippocrit/sketches/rQ92oCK8G)
+[Line Chart](https://editor.p5js.org/hippocrit/sketches/uNn68IXsP)
+[Pie Chart](https://editor.p5js.org/hippocrit/sketches/MteK4lWuF)
+*Note: These examples are using imaginary data. You will need to "normalize" your data to make it fit your screen/output. Use the [map()](https://p5js.org/reference/#/p5/map) function to do this.
+
+Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` function you can write a `callback` function which will be called when the data is loaded. This will give you flexbility, since you may not want to always load data at the beginning of the sketch.
+
+[Callback Function](https://editor.p5js.org/hippocrit/sketches/xHjCyALEr)
+[Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc)
+
+### JSON
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)
 Rainbow
 

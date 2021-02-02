@@ -76,17 +76,43 @@ But assuming you start a data visualization with data, look at the data. What do
 
 Start sketching!
 
-### Types of data:
-Anything digital can be treated as data!
-Sound
-Pixel
+Data usually comes formatted as some kind of text: .txt file, .csv, .json, etc.
 
-Tables
+Working with the data format and delivery system is often the most challenging part of visualizing data!
+
+### Raw Text as Data
+When dealing with raw text files we need to:
+1. Load the text file (make sure it is raw text / .txt)
+1. By default text file is loaded as an *array of lines*, we need to join all the lines together into one string
+1. Then we need to separate the big string into into individual strings (words) using *delimeters* (white space and punctuation)
+1. Then we store all the separate words in a new array
+
+[Word Counter](https://editor.p5js.org/hippocrit/sketches/LD2XMdEaG)
+
+[Letter Counter](https://editor.p5js.org/hippocrit/sketches/4D_Pwiuyf)
+
+*Note: JavaScript p5.js requires a bit of extra work to actually count words. Other programming languages (Python) have built in functionality for this kind of work.*
+
+[Associative Arrays](https://editor.p5js.org/hippocrit/sketches/WzT3mX2Mq)
+
+[Word Frequency](https://editor.p5js.org/hippocrit/sketches/0wqs4QsY9)
+
+[Top Word Counter](https://editor.p5js.org/hippocrit/sketches/urLgOxFmQ)
+
+*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/)
+
+### Tables
 
 [CSV: Comma Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values)
 
+
+
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)
 Rainbow
+
+Anything digital can be treated as data!
+Sound
+Pixel
 
 Note: JSON is great, but the trick is getting used to "traversing," or getting the right syntax to get the data you want.
 

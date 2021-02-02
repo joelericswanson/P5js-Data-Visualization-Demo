@@ -124,13 +124,34 @@ Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` func
 
 ### JSON
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)
-Rainbow
 
+`{
+  		"name":"cat",
+  		"weight": 11,
+  		"breed": "Siamese",
+  		"eyecolor": "blue"  
+}`
+
+Check your formatting: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+
+[JSON with Array](https://editor.p5js.org/hippocrit/sketches/lIuksZlYi)
+
+Note: JSON is great, but the trick is getting used to "traversing," or getting the right syntax to get the data you want. 
+
+[A delightful collection of obscure JSON corpora by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
+
+[External JSON File](https://editor.p5js.org/hippocrit/sketches/mubDkKZj-)
+
+[Bubble Sort HTML Colors by Hue](https://editor.p5js.org/hippocrit/sketches/Sh5BpMmwE)
+*Something I've been working on recently (using a Bubble Sort Algorithm to resort an alphabetized list of the named HTML colors based on Hue.*
+
+### Digital Files as Data
 Anything digital can be treated as data!
+
 Sound
+
 Pixel
 
-Note: JSON is great, but the trick is getting used to "traversing," or getting the right syntax to get the data you want.
 
 Not really a "type of data" but you will often get data through an [API: Application Programming Interface](https://en.wikipedia.org/wiki/API). Most API's deliver JSON formatted data.
 

@@ -57,12 +57,13 @@ When working with ratio variables, but not interval variables, the ratio of two 
 
 
 ## Tools
-[Python](https://www.python.org/)
-[R](https://www.r-project.org/foundation/)
-[JavaScript](https://www.javascript.com/)
-[Java](https://www.java.com/en/)
-[P5.js](https://p5js.org/)
-[MatLab](https://www.mathworks.com/products/matlab.html)
+
+* [Python](https://www.python.org/)
+* [R](https://www.r-project.org/foundation/)
+* [JavaScript](https://www.javascript.com/)
+* [Java](https://www.java.com/en/)
+* [P5.js](https://p5js.org/)
+* [MatLab](https://www.mathworks.com/products/matlab.html)
 
 There are also software packages, like [Tableau](x), that are frequently used.
 
@@ -129,50 +130,92 @@ Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` func
 
 ### JSON
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)
+Data format based on the syntax for objects in the JavaScript, but is widely used on the web.
 
-`{
-  		"name":"cat",
-  		"weight": 11,
-  		"breed": "Siamese",
-  		"eyecolor": "blue"  
-}`
+All JSON data comes in the following two ways: an object or an array. And the syntax for these is identical to the syntax you see in JavaScript itself.
 
-Check your formatting: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+Let's take a look at a JSON object first. A JSON object is identical to a JavaScript object (without functions). It’s a collection of variables with a name and a value (or "name/value pair"). Each name is encoded as a string enclosed in quotes, this is just about the only difference. For example, following is JSON data describing a person:
+
+```
+{
+  "name":"Olympia",
+  "age":3,
+  "height":96.5,
+  "state":"giggling"
+}
+```
+
+This is how it might look if you typed it into your code directly (the quotes are no longer necessary.)
+
+```
+var person = {
+  name: "Olympia",
+  age: 3,
+  height: 96.5,
+  state: "giggling"
+}
+```
+
+An object can contain, as part of itself, another object. Below, the value of “brother” is an object containing two name/value pairs.
+
+```
+{
+  "name":"Olympia",
+  "age":3,
+  "height":96.5,
+  "state":"giggling",
+  "brother":{
+    "name":"Elias",
+    "age":6
+  }
+}
+```
+
+```
+{
+  "name":"cat",
+  "weight": 11,
+  "breed": "Siamese",
+  "eyecolor": "blue"  
+}
+```
+
+Check the formatting of your JSON: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 
 [JSON with Array](https://editor.p5js.org/hippocrit/sketches/lIuksZlYi)
 
-Note: JSON is great, but the trick is getting used to "traversing," or getting the right syntax to get the data you want. 
+*Note: The trick is getting used to "traversing," or getting the right syntax to get the data you want.*
 
 [A delightful collection of obscure JSON corpora by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
 
 [External JSON File](https://editor.p5js.org/hippocrit/sketches/mubDkKZj-)
 [Loading External JSON File with a Callback Function](https://editor.p5js.org/hippocrit/sketches/MqKnyDuI0)
-
 [Bubble Sort HTML Colors by Hue](https://editor.p5js.org/hippocrit/sketches/Sh5BpMmwE)
 *Something I've been working on recently (using a Bubble Sort Algorithm to resort an alphabetized list of the named HTML colors based on Hue.*
 
 ### Working with Live Data: API's
 
-All the previous data was static: it doesn't update itself. But how do we work with data this is constantly updating itself, like weather? Most of this kind of data will be served through API's: Application Programming Interfaces. Getting data from API's can be challenging, as each one is setup slightly differently and you have to learn how to access their data through QUERYs.
-
-Let's start with a very simple example of an API: [http://api.open-notify.org/astros.json](http://api.open-notify.org/astros.json)
-
-[Weather API](https://editor.p5js.org/hippocrit/sketches/RmB0iiBOO)
-
-Notice: 
-*We request the data right through the browser via `http://`
-*This API doesn't require any kind of authentication. Most of them do.
-*The data is returned as a JSON file
-
-
+All the previous data was static: it doesn't update itself. But how do we work with data that is constantly updating itself, like weather? Most of this kind of data will be served through API's: Application Programming Interfaces. Getting data from API's can be challenging, as each one is setup slightly differently and you have to learn how to access their data through QUERYs.
 
 [List of public API's](https://github.com/public-apis/public-apis/blob/master/README.md)
 
-Other Examples of Working with API's
-https://p5js.org/examples/hello-p5-weather.html
-https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/
+[SimpleAPI](http://api.open-notify.org/astros.json)
+
+[JSONandAPI](https://editor.p5js.org/hippocrit/sketches/peO1Qe85x)
+
+[APIwithKey](https://editor.p5js.org/hippocrit/sketches/RmB0iiBOO)
+
+*You have to sign up (free) to get the API key. Also take a look at the [documentation](https://openweathermap.org/current). This is where you figure out the QUERY string which lets you control the information you get back.*
+
+**Other Examples of Working with API's**
+
+[https://p5js.org/examples/hello-p5-weather.html](https://p5js.org/examples/hello-p5-weather.html)
+
+[https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/}(https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/)
+
 [Daniel Shiffman's API Tutorial](https://shiffman.net/a2z/data-apis/)
-https://fablab.ruc.dk/introduction-to-using-apis/
+
+[https://fablab.ruc.dk/introduction-to-using-apis/](https://fablab.ruc.dk/introduction-to-using-apis/)
 
 ### Digital Files as Data
 Anything digital can be treated as data!
@@ -180,17 +223,10 @@ Anything digital can be treated as data!
 Sound
 https://www.creativebloq.com/how-to/data-visualisation-with-p5js
 
-Pixel
-
-Data repository: [Kaggle](https://www.kaggle.com/datasets)
+Pixels
 
 
-Not really a "type of data" but you will often get data through an [API: Application Programming Interface](https://en.wikipedia.org/wiki/API). Most API's deliver JSON formatted data.
-
-##Query Strings
-
-
-
-Other great Examples
+## Other Links
+[Data repository: Kaggle](https://www.kaggle.com/datasets)
 [Scatterplot Example by Allison Parrish](https://editor.p5js.org/allison.parrish/sketches/ry9wlx46b)
 

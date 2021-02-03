@@ -1,9 +1,9 @@
 # P5js-Data-Visualization-Demo
 ### Required Skills
-a familarity with programming, familiarity with arrays and for loops.
+a familarity with arrays and for loops
 
 ### Things to Ponder: Data != Truth
-*“In order to consider these fundamentals in detail, however, we must start with an alternative assumption about information itself: that there is nothing natural about information. Information, no matter what it is called—data, knowledge, or fact, song, story, or metaphor—has always been designed.”*
+>“In order to consider these fundamentals in detail, however, we must start with an alternative assumption about information itself: that there is nothing natural about information. Information, no matter what it is called—data, knowledge, or fact, song, story, or metaphor—has always been designed.”*
 
 —Brenda Dervin, *Chaos, Order, and Sense-Making* 
 

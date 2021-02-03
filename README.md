@@ -105,6 +105,10 @@ When dealing with raw text files we need to:
 
 [CSV: Comma Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values)
 
+Sometimes the character that separates the cells on each row is something other than a comma. A few alternative you’re likely to see are the pipe character (|), a colon (:) or a tab. But even if a different delimiter other than a comma is used, such files are still called CSV files. (Although sometimes files with tab-separated values are called TSV files.)
+
+You can explore .CSV from any spreadsheet software, but keep in mind that you will lose all formatting, and data types!
+
 [Load Text File](https://editor.p5js.org/hippocrit/sketches/EmKaXjJg4)
 
 Most tables can be exported as .csv file, or comma separated values files (show .csv file in TextEdit and Numbers)
@@ -117,10 +121,14 @@ P5.js comes with a bunch of [functions and properties](https://p5js.org/referenc
 [Pie Chart](https://editor.p5js.org/hippocrit/sketches/MteK4lWuF)
 *Note: These examples are using imaginary data. You will need to "normalize" your data to make it fit your screen/output. Use the [map()](https://p5js.org/reference/#/p5/map) function to do this.
 
+[Google Spreadsheets](https://editor.p5js.org/hippocrit/sketches/FrqV0s1h0)
+
 Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` function you can write a `callback` function which will be called when the data is loaded. This will give you flexbility, since you may not want to always load data at the beginning of the sketch.
 
 [Callback Function](https://editor.p5js.org/hippocrit/sketches/xHjCyALEr)
 [Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc)
+
+Google Maps Example
 
 ### JSON
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)
@@ -141,20 +149,47 @@ Note: JSON is great, but the trick is getting used to "traversing," or getting t
 [A delightful collection of obscure JSON corpora by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
 
 [External JSON File](https://editor.p5js.org/hippocrit/sketches/mubDkKZj-)
+[Loading External JSON File with a Callback Function](https://editor.p5js.org/hippocrit/sketches/MqKnyDuI0)
 
 [Bubble Sort HTML Colors by Hue](https://editor.p5js.org/hippocrit/sketches/Sh5BpMmwE)
 *Something I've been working on recently (using a Bubble Sort Algorithm to resort an alphabetized list of the named HTML colors based on Hue.*
+
+### Working with Live Data: API's
+
+All the previous data was static: it doesn't update itself. But how do we work with data this is constantly updating itself, like weather? Most of this kind of data will be served through API's: Application Programming Interfaces. Getting data from API's can be challenging, as each one is setup slightly differently and you have to learn how to access their data through QUERYs.
+
+Let's start with a very simple example of an API: [http://api.open-notify.org/astros.json](http://api.open-notify.org/astros.json)
+
+Notice: 
+*We request the data right through the browser via `http://`
+*This API doesn't require any kind of authentication. Most of them do.
+*The data is returned as a JSON file
+
+[List of public API's](https://github.com/public-apis/public-apis/blob/master/README.md)
+
+Other Examples of Working with API's
+https://p5js.org/examples/hello-p5-weather.html
+https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/
+[Daniel Shiffman's API Tutorial](https://shiffman.net/a2z/data-apis/)
+https://fablab.ruc.dk/introduction-to-using-apis/
 
 ### Digital Files as Data
 Anything digital can be treated as data!
 
 Sound
+https://www.creativebloq.com/how-to/data-visualisation-with-p5js
 
 Pixel
+
+Data repository: [Kaggle](https://www.kaggle.com/datasets)
 
 
 Not really a "type of data" but you will often get data through an [API: Application Programming Interface](https://en.wikipedia.org/wiki/API). Most API's deliver JSON formatted data.
 
 ##Query Strings
 
+
+
+Other great Examples
+[Scatterplot Example by Allison Parrish](https://editor.p5js.org/allison.parrish/sketches/ry9wlx46b)
 

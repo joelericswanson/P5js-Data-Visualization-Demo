@@ -160,10 +160,14 @@ All the previous data was static: it doesn't update itself. But how do we work w
 
 Let's start with a very simple example of an API: [http://api.open-notify.org/astros.json](http://api.open-notify.org/astros.json)
 
+[Weather API](https://editor.p5js.org/hippocrit/sketches/RmB0iiBOO)
+
 Notice: 
 *We request the data right through the browser via `http://`
 *This API doesn't require any kind of authentication. Most of them do.
 *The data is returned as a JSON file
+
+
 
 [List of public API's](https://github.com/public-apis/public-apis/blob/master/README.md)
 

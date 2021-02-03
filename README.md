@@ -3,9 +3,7 @@
 a familarity with arrays and for loops
 
 ### Things to Ponder: Data != Truth
->“In order to consider these fundamentals in detail, however, we must start with an alternative assumption about information itself: that there is nothing natural about information. Information, no matter what it is called—data, knowledge, or fact, song, story, or metaphor—has always been designed.”*
-
-—Brenda Dervin, *Chaos, Order, and Sense-Making* 
+>“In order to consider these fundamentals in detail, however, we must start with an alternative assumption about information itself: that there is nothing natural about information. Information, no matter what it is called—data, knowledge, or fact, song, story, or metaphor—has always been designed.” —Brenda Dervin, *Chaos, Order, and Sense-Making* 
 
 ["Zero" had to be invented](https://www.scientificamerican.com/article/what-is-the-origin-of-zer/)
 
@@ -17,7 +15,7 @@ Chart fatigue, New York Times portrait vs. lanscape
 
 ## Scales of Measurement
 
-All variables are either nominal, ordinal, interval, and ratio as introduced in the 1940's by [Stanley Smith Stevens](https://en.wikipedia.org/wiki/Stanley_Smith_Stevens)
+All variables (which compose data) are either nominal, ordinal, interval, and ratio as introduced in the 1940's by [Stanley Smith Stevens](https://en.wikipedia.org/wiki/Stanley_Smith_Stevens)
 
 ![Types of Data](https://lh5.googleusercontent.com/7jyxzQ2ObysJGLFcGB6Zc25AHAswexk68SbOh_KYa4if2P9yRe7lIC8NDUgZEcSGspqpRIGQcMx_qCmrG6sjHegFHy9Sqhp_1z3PFido6d19TKYFq0pMTHDs4OV9l6pP-MTNmeKu)
 
@@ -70,11 +68,13 @@ There are also software packages, like [Tableau](x), that are frequently used.
 
 There are also good tools inside standard software, like Microsoft Excel.
 
-## Different Kinds of data
+## How do you make a data visualization?
 
-But assuming you start a data visualization with data, look at the data. What do you have? What do you not have? Is there other data that might be interesting to combine? What story are you trying to tell about this data (in a completely ethical and objective way of course)?
+**Start with data!** Look at the data. What do you have? What do you not have? Is there other data that might be interesting to combine? What story are you trying to tell about this data (in a completely ethical and objective way of course)?
 
 Start sketching!
+
+## Different Kinds of data
 
 Data usually comes formatted as some kind of text: .txt file, .csv, .json, etc.
 
@@ -99,19 +99,15 @@ When dealing with raw text files we need to:
 
 [Top Word Counter](https://editor.p5js.org/hippocrit/sketches/urLgOxFmQ)
 
-*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/)
+*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/). It will make your life much easier.
 
 ### Tables
 
 [CSV: Comma Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values)
 
-Sometimes the character that separates the cells on each row is something other than a comma. A few alternative you’re likely to see are the pipe character (|), a colon (:) or a tab. But even if a different delimiter other than a comma is used, such files are still called CSV files. (Although sometimes files with tab-separated values are called TSV files.)
+CSV is the lowest level standard for spreadsheets. You might also see the pipe character (|), a colon (:) or a tab. But even if a different delimiter other than a comma is used, such files are still called CSV files. (Although sometimes files with tab-separated values are called TSV files.)
 
-You can explore .CSV from any spreadsheet software, but keep in mind that you will lose all formatting, and data types!
-
-[Load Text File](https://editor.p5js.org/hippocrit/sketches/EmKaXjJg4)
-
-Most tables can be exported as .csv file, or comma separated values files (show .csv file in TextEdit and Numbers)
+You can export .CSV files from any spreadsheet software, but keep in mind that you will lose all formatting and data types!
 
 P5.js comes with a bunch of [functions and properties](https://p5js.org/reference/#/p5.Table) for working with tables.
 
@@ -121,14 +117,15 @@ P5.js comes with a bunch of [functions and properties](https://p5js.org/referenc
 [Pie Chart](https://editor.p5js.org/hippocrit/sketches/MteK4lWuF)
 *Note: These examples are using imaginary data. You will need to "normalize" your data to make it fit your screen/output. Use the [map()](https://p5js.org/reference/#/p5/map) function to do this.
 
-[Google Spreadsheets](https://editor.p5js.org/hippocrit/sketches/FrqV0s1h0)
+**Callback Functions**
 
-Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` function you can write a `callback` function which will be called when the data is loaded. This will give you flexbility, since you may not want to always load data at the beginning of the sketch.
+Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` function you can write a `callback` function which will be called when the data is loaded. This will give you flexbility, since you may not want to always load data at the beginning of the sketch\.
 
 [Callback Function](https://editor.p5js.org/hippocrit/sketches/xHjCyALEr)
-[Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc)
 
-Google Maps Example
+[Loading a Google Spreadsheets](https://editor.p5js.org/hippocrit/sketches/FrqV0s1h0)
+
+[Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc) *This uses objects*
 
 ### JSON
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)

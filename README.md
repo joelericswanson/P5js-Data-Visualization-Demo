@@ -18,7 +18,7 @@ Chart fatigue, New York Times portrait vs. lanscape
 
 ## Scales of Measurement
 
-All variables (which compose data) are either nominal, ordinal, interval, and ratio as introduced in the 1940's by [Stanley Smith Stevens](https://en.wikipedia.org/wiki/Stanley_Smith_Stevens)
+All variables (which compose data) are either *nominal*, *ordinal*, *interval*, and *ratio* as introduced in the 1940's by [Stanley Smith Stevens](https://en.wikipedia.org/wiki/Stanley_Smith_Stevens)
 
 ![Types of Data](https://lh5.googleusercontent.com/7jyxzQ2ObysJGLFcGB6Zc25AHAswexk68SbOh_KYa4if2P9yRe7lIC8NDUgZEcSGspqpRIGQcMx_qCmrG6sjHegFHy9Sqhp_1z3PFido6d19TKYFq0pMTHDs4OV9l6pP-MTNmeKu)
 
@@ -27,7 +27,7 @@ All variables (which compose data) are either nominal, ordinal, interval, and ra
 **Nominal Data: categories, data has no ordering or direction.**
 A nominal scale describes a variable with categories that do not have a natural order or ranking. You can code nominal variables with numbers if you want, but the order is arbitrary and any calculations, such as computing a mean, median, or standard deviation, would be meaningless.
 
-Examples: genotype, blood type, zip code, gender, race, eye color, political party
+Examples: genotype, blood type, zip code, gender, race, eye color, political party (and these many of these categories are social constructions)
 
 **Ordinal Data: ordered categories (ranking, orders or scalings)**
 
@@ -42,7 +42,7 @@ Note the differences between adjacent categories do not necessarily have the sam
 **Interval Data: Differences between measurements, but no true zero**
 An interval scale is one where there is order and the difference between two values is meaningful.
 
-Examples temperature (Farenheit), temperature (Celcius), pH, SAT score (200-800), credit score (300-850).
+Examples: temperature (Farenheit), temperature (Celcius), pH, SAT score (200-800), credit score (300-850).
 
 **Ratio Data: Differenes between measurements with true zero**
 A ratio variable, has all the properties of an interval variable, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable.
@@ -74,21 +74,23 @@ There are also good tools inside standard software, like Microsoft Excel.
 
 ## How do you make a data visualization?
 
-**Start with data!** Look at the data. What do you have? What do you not have? Is there other data that might be interesting to combine? What story are you trying to tell about this data (in a completely ethical and objective way of course)?
-
-Start sketching!
+**Start with data!** 
+* Find a dataset
+* Look at the data. What do you have? What don't you have? 
+* Are there other datasets that might be interesting to combine? What story are you trying to tell about this data (in a completely ethical and objective way of course)?
+* Start sketching!
 
 ## Different Kinds of data
 
-Data usually comes formatted as some kind of text: .txt file, .csv, .json, etc.
+Data is typically stored in an alphanumeric file: .txt file, .csv, .json, etc.
 
 Working with the data format and delivery system is often the most challenging part of visualizing data!
 
 ### Raw Text as Data
 When dealing with raw text files we need to:
 1. Load the text file (make sure it is raw text / .txt)
-1. By default text file is loaded as an *array of lines*, we need to join all the lines together into one string
-1. Then we need to separate the big string into into individual strings (words) using *delimeters* (white space and punctuation)
+1. By default a text file is loaded as an *array of lines*, we need to join all the lines together into one string
+1. Then we need to separate the big string into into individual strings (words) using *delimeters* (white space and punctuation). You can also do this with a [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression).
 1. Then we store all the separate words in a new array
 
 [Word Counter](https://editor.p5js.org/hippocrit/sketches/LD2XMdEaG)
@@ -116,9 +118,13 @@ You can export .CSV files from any spreadsheet software, but keep in mind that y
 P5.js comes with a bunch of [functions and properties](https://p5js.org/reference/#/p5.Table) for working with tables.
 
 [Load Table](https://editor.p5js.org/hippocrit/sketches/W8-Lt9lby)
+
 [Bar Chart](https://editor.p5js.org/hippocrit/sketches/rQ92oCK8G)
+
 [Line Chart](https://editor.p5js.org/hippocrit/sketches/uNn68IXsP)
+
 [Pie Chart](https://editor.p5js.org/hippocrit/sketches/MteK4lWuF)
+
 *Note: These examples are using imaginary data. You will need to "normalize" your data to make it fit your screen/output. Use the [map()](https://p5js.org/reference/#/p5/map) function to do this.
 
 **Callback Functions**

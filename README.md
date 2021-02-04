@@ -100,7 +100,7 @@ When dealing with raw text files we need to:
 
 [Top Word Counter](https://editor.p5js.org/hippocrit/sketches/urLgOxFmQ)
 
-*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/). It will make your life much easier.
+*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/). It will make your life much easier. [Parts of Speech](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO) [Rita Concordance](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO)
 
 ### Tables
 
@@ -220,11 +220,18 @@ All the previous data was static: it doesn't update itself. But how do we work w
 ### Digital Files as Data
 Anything digital can be treated as data!
 
-Sound
-https://www.creativebloq.com/how-to/data-visualisation-with-p5js
+**Sound**
 
-Pixels
+[Microphone Volume](https://editor.p5js.org/hippocrit/sketches/8UVi43Xif)
 
+[Sound Visualizer](https://editor.p5js.org/hippocrit/sketches/u4L8VOCcl)
+
+[Another Sound Visualizer](https://editor.p5js.org/hippocrit/sketches/drODr8Ceg)
+
+**Pixels**
+[Adjust Video Pixels](https://editor.p5js.org/hippocrit/sketches/_8Lis7eMY)
+
+https://editor.p5js.org/Atchareeya_J/sketches/ZOZuePTQ2
 
 ## Other Links
 [Data repository: Kaggle](https://www.kaggle.com/datasets)

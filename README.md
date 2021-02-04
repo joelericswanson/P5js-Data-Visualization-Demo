@@ -157,7 +157,7 @@ let animal = {
 
 ```
 
-An object can contain other objects. Below, the value of “brother” is an object containing two name/value pairs.
+An object can contain other objects. Below, the value of “brother” is an object containing two name/value (or key/value) pairs. Also note that the last name/value pair doesn't have a comma after it.
 
 ```
 {
@@ -184,29 +184,22 @@ When you look at JSON it can look like a mess as whitespace is removed. Copy and
 [Loading External JSON File with a Callback Function](https://editor.p5js.org/hippocrit/sketches/MqKnyDuI0)
 
 [Bubble Sort HTML Colors by Hue](https://editor.p5js.org/hippocrit/sketches/Sh5BpMmwE)
-*Something I've been working on recently (using a Bubble Sort Algorithm to resort an alphabetized list of the named HTML colors based on Hue.*
 
 ### Working with Live Data: API's
 
-All the previous data was static: it doesn't update itself. But how do we work with data that is constantly updating itself, like weather? Most of this kind of data will be served through API's: Application Programming Interfaces. Getting data from API's can be challenging, as each one is setup slightly differently and you have to learn how to access their data through QUERYs.
+So all those previous data sets were static, but how do we work with data that is constantly updating itself, like the weather? This kind of data will typically be served through [API's: Application Programming Interfaces](https://en.wikipedia.org/wiki/API). Getting data from API's can be challenging, as each one is setup slightly differently and you have to learn how work with [QUERY](https://en.wikipedia.org/wiki/Query_string) strings.
 
-[List of public API's](https://github.com/public-apis/public-apis/blob/master/README.md)
-
-[SimpleAPI](http://api.open-notify.org/astros.json)
+[SimpleAPI](https://editor.p5js.org/hippocrit/sketches/vWQm0G6--) **You have to download and run this file due to browser security issues!**
 
 [JSONandAPI](https://editor.p5js.org/hippocrit/sketches/peO1Qe85x)
 
-[APIwithKey](https://editor.p5js.org/hippocrit/sketches/RmB0iiBOO)
-
-*You have to sign up (free) to get the API key. Also take a look at the [documentation](https://openweathermap.org/current). This is where you figure out the QUERY string which lets you control the information you get back.*
+[APIwithKey](https://editor.p5js.org/hippocrit/sketches/RmB0iiBOO) *You have to sign up (free) to get the API key. Also take a look at the [documentation](https://openweathermap.org/current). This is where you figure out the QUERY string which lets you control the information you get back.*
 
 **Other Examples of Working with API's**
 
 [https://p5js.org/examples/hello-p5-weather.html](https://p5js.org/examples/hello-p5-weather.html)
 
-[https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/}(https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/)
-
-[Daniel Shiffman's API Tutorial](https://shiffman.net/a2z/data-apis/)
+[https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/](https://rebecca-ricks.com/2015/10/27/first-p5-js-sketch-using-the-nyt-api/)
 
 [https://fablab.ruc.dk/introduction-to-using-apis/](https://fablab.ruc.dk/introduction-to-using-apis/)
 
@@ -222,18 +215,21 @@ Anything digital can be treated as data!
 [Another Sound Visualizer](https://editor.p5js.org/hippocrit/sketches/drODr8Ceg)
 
 **Pixels**
+
+[Read Pixel Data](https://editor.p5js.org/hippocrit/sketches/BFUc32ELr)
+
 [Adjust Video Pixels](https://editor.p5js.org/hippocrit/sketches/_8Lis7eMY)
 
-https://editor.p5js.org/Atchareeya_J/sketches/ZOZuePTQ2
-
 ## Other Links
+[List of public API's](https://github.com/public-apis/public-apis/blob/master/README.md)
 [Data repository: Kaggle](https://www.kaggle.com/datasets)
 [Scatterplot Example by Allison Parrish](https://editor.p5js.org/allison.parrish/sketches/ry9wlx46b)
 
-
 # Design Challenge 4
 
-In your assigned group, create a data visualization from a dataset of your choosing. Finding good data will be a signifcant part of this project. You can make this a *meaningful* visualization, or you can make this more of an expressive/aesthetic visualization (but if you go the expressive/aesthetic route, it better look really good!)
+In your assigned group, create a data visualization from a dataset of your choosing. Finding good data will be a signifcant part of this project. Do you best to parse the data using JavaScript/P5.js. 
+
+You can make this a *meaningful* visualization, or you can make this more of an expressive/aesthetic visualization (but if you go the expressive/aesthetic route, it better look really good!)
 
 * Challenge Level 1: visualize data from a spreadsheet
 * Challange Level 2: visualize data from a static JSON file

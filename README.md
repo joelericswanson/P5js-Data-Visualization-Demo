@@ -225,11 +225,6 @@ Anything digital can be treated as data!
 [Data repository: Kaggle](https://www.kaggle.com/datasets)
 [Scatterplot Example by Allison Parrish](https://editor.p5js.org/allison.parrish/sketches/ry9wlx46b)
 
-# Design Challenge 4
-
-In your assigned group, create a data visualization from a dataset of your choosing. Finding good data will be a signifcant part of this project. Do you best to parse the data using JavaScript/P5.js. 
-
-You can make this a *meaningful* visualization, or you can make this more of an expressive/aesthetic visualization (but if you go the expressive/aesthetic route, it better look really good!)
 
 * Challenge Level 1: visualize data from a spreadsheet
 * Challange Level 2: visualize data from a static JSON file

@@ -20,8 +20,6 @@ Chart fatigue, New York Times portrait vs. lanscape
 
 All variables (which compose data) are either *nominal*, *ordinal*, *interval*, and *ratio* as introduced in the 1940's by [Stanley Smith Stevens](https://en.wikipedia.org/wiki/Stanley_Smith_Stevens)
 
-![Types of Data](https://lh5.googleusercontent.com/7jyxzQ2ObysJGLFcGB6Zc25AHAswexk68SbOh_KYa4if2P9yRe7lIC8NDUgZEcSGspqpRIGQcMx_qCmrG6sjHegFHy9Sqhp_1z3PFido6d19TKYFq0pMTHDs4OV9l6pP-MTNmeKu)
-
 ### Qualitative Data 
 
 **Nominal Data: categories, data has no ordering or direction.**
@@ -142,67 +140,49 @@ Instead of using the [preload()](https://p5js.org/reference/#/p5/preload) functi
 [Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc) *This uses [objects](https://p5js.org/examples/objects-objects.html)*
 
 ### JSON
-[JSON: JavaScript Object Notation](https://www.json.org/json-en.html)
-Data format based on the syntax for objects in the JavaScript, but is widely used on the web.
+The [JSON: JavaScript Object Notation](https://www.json.org/json-en.html) data format is based on the syntax for JavaScript objects, but is widely used on the web.
 
-All JSON data comes in the following two ways: an object or an array. And the syntax for these is identical to the syntax you see in JavaScript itself.
+All JSON data is formatted as an object or an array, both using JavaScript syntax.
 
-Let's take a look at a JSON object first. A JSON object is identical to a JavaScript object (without functions). It’s a collection of variables with a name and a value (or "name/value pair"). Each name is encoded as a string enclosed in quotes, this is just about the only difference. For example, following is JSON data describing a person:
+A JSON object is identical to a JavaScript object (without functions). It’s a collection of name: value pairs. Note that strings are enclosed in quotes.
+
+```
+let animal = {
+  "name": "Bambam",
+  "breed": "pitbull",
+  "age": 9,
+  "height": 75,
+  "state": "begging"
+}
+
+```
+
+An object can contain other objects. Below, the value of “brother” is an object containing two name/value pairs.
 
 ```
 {
-  "name":"Olympia",
-  "age":3,
-  "height":96.5,
-  "state":"giggling"
-}
-```
-
-This is how it might look if you typed it into your code directly (the quotes are no longer necessary.)
-
-```
-var person = {
-  name: "Olympia",
-  age: 3,
-  height: 96.5,
-  state: "giggling"
-}
-```
-
-An object can contain, as part of itself, another object. Below, the value of “brother” is an object containing two name/value pairs.
-
-```
-{
-  "name":"Olympia",
-  "age":3,
-  "height":96.5,
-  "state":"giggling",
+  "name": "Bambam",
+  "breed": "pitbull",
+  "age": 9,
+  "height": 75,
+  "state": "begging",
   "brother":{
-    "name":"Elias",
-    "age":6
+    "name":"Smacky",
+    "age":3,
+    "breed": "boxer:"
   }
 }
 ```
-
-```
-{
-  "name":"cat",
-  "weight": 11,
-  "breed": "Siamese",
-  "eyecolor": "blue"  
-}
-```
-
-Check the formatting of your JSON: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+When you look at JSON it can look like a mess as whitespace is removed. Copy and paste it into a [JSON Formatter](https://jsonformatter.curiousconcept.com/) to help you understand how the JSON is structured. Working with JSON takes practice. 
 
 [JSON with Array](https://editor.p5js.org/hippocrit/sketches/lIuksZlYi)
-
-*Note: The trick is getting used to "traversing," or getting the right syntax to get the data you want.*
 
 [A delightful collection of obscure JSON corpora by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
 
 [External JSON File](https://editor.p5js.org/hippocrit/sketches/mubDkKZj-)
+
 [Loading External JSON File with a Callback Function](https://editor.p5js.org/hippocrit/sketches/MqKnyDuI0)
+
 [Bubble Sort HTML Colors by Hue](https://editor.p5js.org/hippocrit/sketches/Sh5BpMmwE)
 *Something I've been working on recently (using a Bubble Sort Algorithm to resort an alphabetized list of the named HTML colors based on Hue.*
 
@@ -249,4 +229,16 @@ https://editor.p5js.org/Atchareeya_J/sketches/ZOZuePTQ2
 ## Other Links
 [Data repository: Kaggle](https://www.kaggle.com/datasets)
 [Scatterplot Example by Allison Parrish](https://editor.p5js.org/allison.parrish/sketches/ry9wlx46b)
+
+
+# Design Challenge 4
+
+In your assigned group, create a data visualization from a dataset of your choosing. Finding good data will be a signifcant part of this project. You can make this a *meaningful* visualization, or you can make this more of an expressive/aesthetic visualization (but if you go the expressive/aesthetic route, it better look really good!)
+
+* Challenge Level 1: visualize data from a spreadsheet
+* Challange Level 2: visualize data from a static JSON file
+* Challenge Level 3: visualize data from an API
+* Challenge Level 4: combine multiple datasets (e.g. one file is student SAT scores based on location, another file is where free lunches are provided)
+
+
 

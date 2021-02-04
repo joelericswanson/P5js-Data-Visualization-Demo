@@ -90,10 +90,12 @@ Working with the data format and delivery system is often the most challenging p
 When dealing with raw text files we need to:
 1. Load the text file (make sure it is raw text / .txt)
 1. By default a text file is loaded as an *array of lines*, we need to join all the lines together into one string
-1. Then we need to separate the big string into into individual strings (words) using *delimeters* (white space and punctuation). You can also do this with a [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression).
+1. Then we need to separate the big string into into individual strings (words) using *delimeters* (white space and punctuation). You can also do this with a [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression). `/\W+/` will look for all non alphanumeric characters
 1. Then we store all the separate words in a new array
 
 [Word Counter](https://editor.p5js.org/hippocrit/sketches/LD2XMdEaG)
+
+[Another Word Counter](https://editor.p5js.org/hippocrit/sketches/qdX42xl7MZ)
 
 [Letter Counter](https://editor.p5js.org/hippocrit/sketches/4D_Pwiuyf)
 
@@ -105,15 +107,17 @@ When dealing with raw text files we need to:
 
 [Top Word Counter](https://editor.p5js.org/hippocrit/sketches/urLgOxFmQ)
 
-*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/). It will make your life much easier. [Parts of Speech](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO) [Rita Concordance](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO)
+[Visualize Sentence Length](https://editor.p5js.org/hippocrit/sketches/1t1iGS1q_)
+
+*Note: If you want to work with raw text, use a library like [Rita.js](https://rednoise.org/rita/) if not Python. It will make your life much easier. 
+
+[Parts of Speech](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO) 
+
+[Rita Concordance](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO)
 
 ### Tables
 
-[CSV: Comma Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values)
-
-CSV is the lowest level standard for spreadsheets. You might also see the pipe character (|), a colon (:) or a tab. But even if a different delimiter other than a comma is used, such files are still called CSV files. (Although sometimes files with tab-separated values are called TSV files.)
-
-You can export .CSV files from any spreadsheet software, but keep in mind that you will lose all formatting and data types!
+[CSV: Comma Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values) is like the "lowest common denominator" format for spreadsheets. You might also see the pipe character (|), a colon (:) or a tab, but even if a different delimiter other than a comma is used, they are still called CSV files. (Although sometimes files with tab-separated values are called TSV files.) You can export .CSV files from any spreadsheet software, but keep in mind that you will lose all formatting and data types!
 
 P5.js comes with a bunch of [functions and properties](https://p5js.org/reference/#/p5.Table) for working with tables.
 
@@ -129,13 +133,13 @@ P5.js comes with a bunch of [functions and properties](https://p5js.org/referenc
 
 **Callback Functions**
 
-Instead of using the `[preload()](https://p5js.org/reference/#/p5/preload)` function you can write a `callback` function which will be called when the data is loaded. This will give you flexbility, since you may not want to always load data at the beginning of the sketch\.
+Instead of using the [preload()](https://p5js.org/reference/#/p5/preload) function, you can write a *callback* function which will be called when the data is loaded. This will give you flexbility, since you may not want to always load data at the beginning of the sketch\.
 
 [Callback Function](https://editor.p5js.org/hippocrit/sketches/xHjCyALEr)
 
 [Loading a Google Spreadsheets](https://editor.p5js.org/hippocrit/sketches/FrqV0s1h0)
 
-[Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc) *This uses objects*
+[Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc) *This uses [objects](https://p5js.org/examples/objects-objects.html)*
 
 ### JSON
 [JSON: JavaScript Object Notation](https://www.json.org/json-en.html)

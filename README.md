@@ -226,10 +226,4 @@ Anything digital can be treated as data!
 [Scatterplot Example by Allison Parrish](https://editor.p5js.org/allison.parrish/sketches/ry9wlx46b)
 
 
-* Challenge Level 1: visualize data from a spreadsheet
-* Challange Level 2: visualize data from a static JSON file
-* Challenge Level 3: visualize data from an API
-* Challenge Level 4: combine multiple datasets (e.g. one file is student SAT scores based on location, another file is where free lunches are provided)
-
-
 

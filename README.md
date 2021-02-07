@@ -2,6 +2,10 @@
 
 **Required Skills:** a familarity with arrays and for loops
 
+### Reading
+
+[Dietmar Offenhuber, Material Traces as Autographic Visualizations](https://medium.com/multiple-views-visualization-research-explained/material-traces-as-autographic-visualizations-e814662aa60f)
+
 ### Things to Ponder
 
 Data != Fact

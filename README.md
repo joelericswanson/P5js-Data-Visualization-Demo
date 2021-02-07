@@ -97,7 +97,7 @@ When dealing with raw text files we need to:
 
 [Word Counter](https://editor.p5js.org/hippocrit/sketches/LD2XMdEaG)
 
-[Another Word Counter](https://editor.p5js.org/hippocrit/sketches/qdX42xl7MZ)
+[Another Word Counter](https://editor.p5js.org/hippocrit/sketches/qdX42xl7M)
 
 [Letter Counter](https://editor.p5js.org/hippocrit/sketches/4D_Pwiuyf)
 
@@ -116,6 +116,10 @@ When dealing with raw text files we need to:
 [Parts of Speech](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO) 
 
 [Rita Concordance](https://editor.p5js.org/hippocrit/sketches/6S4XKdF0EO)
+
+[More Rita Examples](https://rednoise.org/rita/#examples)
+
+[Even More...][(https://creative-coding.decontextualize.com/intro-to-ritajs/)
 
 ### Tables
 

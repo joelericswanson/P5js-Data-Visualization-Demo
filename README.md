@@ -6,6 +6,8 @@
 
 [Dietmar Offenhuber, Material Traces as Autographic Visualizations](https://medium.com/multiple-views-visualization-research-explained/material-traces-as-autographic-visualizations-e814662aa60f)
 
+https://www.researchgate.net/publication/344282076_What_We_Talk_About_When_We_Talk_About_Data_Physicality
+
 ### Things to Ponder
 
 Data != Fact

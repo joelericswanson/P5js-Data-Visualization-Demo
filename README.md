@@ -2,6 +2,8 @@
 
 **Required Skills:** a familarity with arrays and for loops
 
+## Given the last year, how do you feel about data-visualization? 
+
 ### Reading
 
 [Dietmar Offenhuber, Material Traces as Autographic Visualizations](https://medium.com/multiple-views-visualization-research-explained/material-traces-as-autographic-visualizations-e814662aa60f)

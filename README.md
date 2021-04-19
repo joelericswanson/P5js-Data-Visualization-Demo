@@ -181,7 +181,7 @@ An object can contain other objects. Below, the value of “brother” is an obj
   "brother":{
     "name":"Smacky",
     "age":3,
-    "breed": "boxer:"
+    "breed": "boxer"
   }
 }
 ```

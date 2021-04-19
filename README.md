@@ -147,7 +147,7 @@ Instead of using the [preload()](https://p5js.org/reference/#/p5/preload) functi
 
 [Callback Function](https://editor.p5js.org/hippocrit/sketches/xHjCyALEr)
 
-[Loading a Google Spreadsheets](https://editor.p5js.org/hippocrit/sketches/FrqV0s1h0)
+[Loading a Google Spreadsheet](https://editor.p5js.org/hippocrit/sketches/FrqV0s1h0)
 
 [Zip Code Example](https://editor.p5js.org/hippocrit/sketches/WQ0zPLnqc) *This uses [objects](https://p5js.org/examples/objects-objects.html)*
 
